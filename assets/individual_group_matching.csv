@@ -1,0 +1,13 @@
+experimentalUnitID,groupID,participantRole,experimentalUnitID_confirmation,extra_read_1,extra_read_2,extra_read_3
+101,G1,roleA,true,,,
+102,G1,roleB,true,,,
+103,G1,roleC,true,,,
+103a,G1,roleC,false,,,
+104,G2,roleA,true,,,
+105,G2,roleB,true,,,
+106,G2,roleC,false,,,
+106a,G2,roleC,false,,,
+107,G3,roleA,true,,,
+108,G3,roleB,true,,,
+109,G3,roleC,true,,,
+109a,G3,roleC,false,,,

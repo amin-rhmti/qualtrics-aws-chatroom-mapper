@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+.env.*
+pip-wheel-metadata/
+*.egg-info/
+
+# OS / Editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Builds
+build/
+dist/
+*.zip

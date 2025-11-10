@@ -1,0 +1,2 @@
+# AWS Lambda has boto3 preinstalled. Declare here for local tooling only.
+boto3
