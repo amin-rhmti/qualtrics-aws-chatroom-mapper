@@ -60,13 +60,6 @@ All scripts communicate with the AWS Lambda backend at the URL specified in `ser
 - **Purpose**: Session completion notification
 - **Description**: Notifies the backend via `/complete` endpoint that the participant has finished the experiment, then advances to the next page.
 
-### Manifest
-
-`MANIFEST.json` - Metadata for all JavaScript files, including:
-- Question names and IDs
-- Filenames and line counts
-- Purpose descriptions
-- SMARTRIQS attribution flags
 
 ## Workflow Sequence
 
@@ -106,21 +99,6 @@ To deploy these scripts to your Qualtrics survey:
 5. **Paste into the JavaScript editor** in Qualtrics
 6. **Save** and test in Preview mode
 
-### Important: Header Comments
-
-The header comment block is for documentation only and should NOT be pasted into Qualtrics:
-
-```javascript
-/**
- * Qualtrics Question JS
- * Question: Chat
- * QuestionID: QID13
- * Source: Chatroom-asw_matching_final.qsf
- * Extracted: 2025-11-10T07:14:20.251376Z
- */
-```
-
-Start copying from the actual code (after line 7).
 
 ## Required Embedded Data Fields
 
