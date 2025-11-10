@@ -20,21 +20,21 @@ All scripts communicate with the AWS Lambda backend at the URL specified in `ser
 **1. `Matching.js`**
 - **Question ID**: QID29
 - **Question Name**: Matching
-- **Lines**: 39
+- **Lines**: 31
 - **Purpose**: Initial group assignment lookup
 - **Description**: Fetches `groupID` and `participantRole` from the AWS Lambda `/individual_group_matching` endpoint using the participant's `experimentalUnitID`. Sets `chat_ready` flag to "1" on success.
 
 **2. `Welcome.js`**
 - **Question ID**: QID24
 - **Question Name**: Welcome
-- **Lines**: 56
+- **Lines**: 48
 - **Purpose**: Pre-chat configuration and timezone detection
 - **Description**: Detects the participant's IANA timezone (e.g., "America/Chicago") and saves it to `chatTimeZone` embedded data. Also suppresses harmless theme-related console errors during this page only.
 
 **3. `Chat.js`**
 - **Question ID**: QID13
 - **Question Name**: Chat
-- **Lines**: 222
+- **Lines**: 214
 - **Attribution**: Inspired by SMARTRIQS (A. Molnar, 2019)
 - **Purpose**: Real-time chat interface
 - **Description**: The main chat page that:
@@ -48,14 +48,14 @@ All scripts communicate with the AWS Lambda backend at the URL specified in `ser
 **4. `Report.js`**
 - **Question ID**: QID27
 - **Question Name**: Report
-- **Lines**: 122
+- **Lines**: 114
 - **Purpose**: Transcript display and archival
 - **Description**: Fetches the complete chat transcript as JSON from the backend, saves it to `chatLog` embedded data, and renders a formatted view on the page with timestamps and participant roles.
 
 **5. `Complete.js`**
 - **Question ID**: QID12
 - **Question Name**: Complete
-- **Lines**: 27
+- **Lines**: 19
 - **Attribution**: Inspired by SMARTRIQS (A. Molnar, 2019)
 - **Purpose**: Session completion notification
 - **Description**: Notifies the backend via `/complete` endpoint that the participant has finished the experiment, then advances to the next page.

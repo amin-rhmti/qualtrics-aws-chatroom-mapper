@@ -1,11 +1,3 @@
-/**
- * Qualtrics Question JS
- * Question: Chat
- * QuestionID: QID13
- * Source: Chatroom-asw_matching_final.qsf
- * Extracted: 2025-11-10T07:14:20.251376Z
- */
-
 /* === Chat page (AWS backend, polls & sends; no snapshot here) ================
  * Adds a switch: show/hide times in the visible chat, while JSON snapshot
  * always preserves precise UTC timestamps.

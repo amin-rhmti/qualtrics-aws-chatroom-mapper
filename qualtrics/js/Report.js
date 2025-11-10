@@ -1,11 +1,3 @@
-/**
- * Qualtrics Question JS
- * Question: Report
- * QuestionID: QID27
- * Source: Chatroom-asw_matching_final.qsf
- * Extracted: 2025-11-10T07:14:20.251376Z
- */
-
 /* === Chat report (snapshot → ED 'chatLog' as JSON) ==========================
  * Saves the full transcript to ED 'chatLog' and also renders it on the page.
  * ========================================================================== */

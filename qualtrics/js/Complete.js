@@ -1,11 +1,3 @@
-/**
- * Qualtrics Question JS
- * Question: Complete
- * QuestionID: QID12
- * Source: Chatroom-asw_matching_final.qsf
- * Extracted: 2025-11-10T07:14:20.251376Z
- */
-
 /* === Complete page (notify backend, then Next) ============================= */
 
 Qualtrics.SurveyEngine.addOnload(function () {

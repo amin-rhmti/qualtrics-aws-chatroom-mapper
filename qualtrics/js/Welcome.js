@@ -1,11 +1,3 @@
-/**
- * Qualtrics Question JS
- * Question: ${e://Field/typed_name}! Welcome to the chat section—please do not refresh, minimize, or leave th...
- * QuestionID: QID24
- * Source: Chatroom-asw_matching_final.qsf
- * Extracted: 2025-11-10T07:14:20.251376Z
- */
-
 // Welcome / Before-Block page
 // - Save respondent IANA timezone to ED: chatTimeZone
 // - Hush the theme's harmless "reading '0'" error on THIS page only

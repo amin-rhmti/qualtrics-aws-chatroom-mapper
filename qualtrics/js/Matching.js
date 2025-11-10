@@ -1,11 +1,3 @@
-/**
- * Qualtrics Question JS
- * Question: Matching
- * QuestionID: QID29
- * Source: Chatroom-asw_matching_final.qsf
- * Extracted: 2025-11-10T07:14:20.251376Z
- */
-
 Qualtrics.SurveyEngine.addOnload(function () {
   var page = this;
   page.hideNextButton();
